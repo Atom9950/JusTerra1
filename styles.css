@@ -31,16 +31,22 @@
     color: aliceblue;
   }
 
-  .a{
+
+.a {
     border-radius: 6%;
     margin-left: 3rem;
-    
-  }
+    display: inline-block; 
+    max-width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
 
-  .a:hover{
-    box-shadow: 0px 8px 30px;
-    transform: scale(1.01)
-  }
+
+
+.a:hover {
+    box-shadow: 0px 8px 30px rgba(255, 255, 255, 0.6);
+    transform: scale(1.01);
+}
 
   .bg{
     background: linear-gradient(300deg, 	 	#8B8000, #040b23,#FFAA33 );
